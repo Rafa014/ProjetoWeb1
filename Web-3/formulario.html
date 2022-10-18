@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <header>
+        <main>
+            <div class="menu">
+                <div class="bloco-1">
+                    <div class="home">
+                        <ul>
+                            <li><a href="/index.html">CAETANO</a></li>
+                        </ul>
+                    </div>
+                    <div class="home-1">
+                        <ul>
+                            <li><a href="/sobre.html">SOBRE NOS</a></li>
+                            <li><a href="/visit.html">VISITA</a></li>
+                            <li><a href="/precos.html">PREÇOS</a></li>
+                            <li><a href="/index.html">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bloco-2">
+                    <div class="t">
+                        <h2>COMPARTILHE SUA</h2>
+                        <h1>EXPERIÊNCIA</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-2">
+                <form class="bloco-3">
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="Nome"><strong>Nome</strong></label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset>
+                    <div class="campo">
+                        <label for="diaa"><strong>Informe a data do seu aniversário:</strong></label>
+                        <input type="date" id="diaa" name="diaa" required>
+                    </div>
+                    <div class="campo">
+                        <label for="Email"><strong>Email</strong></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="instagram"><strong>Instagram</strong></label>
+                        <input type="text" name="instagram" id="instagram">
+                    </div>
+                    <div class="campo">
+                        <label for="dataViagem"><strong>Informe a data da sua viagem:</strong></label>
+                        <input type="date" id="dataViagem" name="dataViagem" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Viagem"><strong>Qual tipo de viagem foi realizada?</strong></label>
+                        <label>
+                            <input type="radio" name="viagem" id="aventura" checked>Aventura
+                        </label>
+                        <label>
+                            <input type="radio" name="viagem" id="relaxantes">Relaxante
+                        </label>
+                        <label>
+                            <input type="radio" name="viagem" id="cultura">Cultura
+                        </label>
+                    </div>
+
+                    <div class="campo">
+                        <br>
+                        <label><strong>Conte como foi sua experiência na viagem:</strong></label>
+                        <textarea rows="6" style="width: 26em" name="experiencia" id="experiencia"></textarea>
+                    </div>
+
+                    <button class="botao" type="submit" onsubmit="">ENVIAR</button>
+                </form>
+            </div>
+        </main>
+    </header>
+</body>
+
+</html>

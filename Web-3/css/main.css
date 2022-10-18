@@ -1,0 +1,166 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    background-image: url(../img/fundo_home.jpg);
+    height: 980px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bloco-1 {
+    width: 70%;
+    height: 20%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.home {
+    width: 35%;
+    margin: auto;
+    float: left;
+}
+
+.home ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+.home ul li a {
+    color: #ffffff;
+    font: 20px "Jacques Francois", serif;
+    text-decoration: none;
+    position: fixed;
+}
+
+.home-1 {
+    margin-top: 0px;
+    float: right;
+}
+
+.home-1 ul li {
+    padding: 19px;
+    margin-left: 25px;
+    display: inline-block;
+    height: 8px;
+}
+
+.home-1 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-1 ul li:hover {
+    border-bottom: 0.5px solid #ffffff;
+}
+
+.bloco-2 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.t {
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    color: #ffffff;
+    font: 48px "Jacques Francois", serif;
+}
+
+.t h3 {
+    width: 50%;
+    color: #ffffff;
+    font: 28px "Poppins", sans-serif;
+}
+
+.botao-1 {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+.botao-1 a {
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 4px #ffffff;
+}
+
+.botao-1 :hover {
+    box-shadow: 1px 1px 1px 4px #a7a6a6;
+    color: #a7a6a6;
+}
+
+.menu-2 {
+    width: 100%;
+    height: 680px;
+    background-color: #010b1d;
+    display: inline-block;
+}
+
+.bloco-3 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.parte-img-1 {
+    height: 50%;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.parte-txt-1 {
+    text-align: right;
+    color: #ffffff;
+}
+
+.parte-txt-1 h3 {
+    text-align: justify;
+    padding-left: 60%;
+    font: 20px "Poppins", sans-serif;
+}
+
+.botao-2 {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    float: right;
+    margin-right: 150px;
+}
+
+.botao-2 a {
+    font-size: 20px;
+    width: 100px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5080e7;
+    background-color: transparent;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 3px #5080e7;
+}
+
+.botao-2 :hover {
+    box-shadow: 1px 1px 1px 4px #a7a6a6;
+    color: #a7a6a6;
+}

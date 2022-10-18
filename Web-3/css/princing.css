@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    background-image: url(../img/fundo2.jpg);
+    height: 800px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bloco-1 {
+    width: 70%;
+    height: 10%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.home {
+    width: 35%;
+    margin: auto;
+    float: left;
+}
+
+.home ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+.home ul li a {
+    color: #ffffff;
+    font: 20px "Jacques Francois", serif;
+    text-decoration: none;
+    position: fixed;
+}
+
+.home-1 {
+    margin-top: 0px;
+    float: right;
+}
+
+.home-1 ul li {
+    padding: 19px;
+    margin-left: 25px;
+    display: inline-block;
+    height: 8px;
+}
+
+.home-1 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-1 ul li:hover {
+    border-bottom: 0.5px solid #ffffff;
+}
+
+.bloco-2 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 20%;
+}
+
+.t {
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    color: #ffffff;
+    font: 48px "Jacques Francois", serif;
+}
+
+.menu-1 {
+    width: 100%;
+    height: 400px;
+    background-color: #adbfc7;
+    display: inline-block;
+}
+
+.bloco-3 {
+    width: 70%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 16%;
+}
+
+.parte-txt-1 {
+    text-align: center;
+    color: #152a52;
+}
+
+.parte-txt-1 h1 {
+    text-align: center;
+    font: 48px "Jacques Francois", serif;
+}
+
+.parte-txt-1 h3 {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font: 20px "Poppins", sans-serif;
+}
+
+.bloco-3 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.menu-2 {
+    width: 100%;
+    height: 400px;
+    background-color: #033347;
+    display: inline-block;
+}
+
+.bloco-4 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.text {
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    color: #ffffff;
+    font: 20px "Jacques Francois", serif;
+    text-align: center;
+}
+
+.text h3 {
+    width: 100%;
+    font: 22px "Poppins", sans-serif;
+}
+
+.text h4 {
+    width: 100%;
+    text-align: center;
+    font: 40px "Jacques Francois", serif;
+}
+
+.text p{
+    width: 100%;
+    text-align: center;
+    font: 20px "Jacques Francois", serif;
+}
+
+.menu-3 {
+    width: 100%;
+    height: 400px;
+    background-color: #adbfc7;
+    display: inline-block;
+}
+
+.text-1 {
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    color: #152a52;
+    font: 20px "Jacques Francois", serif;
+    text-align: center;
+}
+
+.text-1 h3 {
+    width: 100%;
+    font: 22px "Poppins", sans-serif;
+}
+
+.text-1 h4 {
+    width: 100%;
+    text-align: center;
+    font: 40px "Jacques Francois", serif;
+}
+
+.text-1 p{
+    width: 100%;
+    text-align: center;
+    font: 20px "Jacques Francois", serif;
+}

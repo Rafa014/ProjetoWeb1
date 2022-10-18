@@ -1,0 +1,174 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    background-image: url(../img/fiorde-alvorecer.jpg);
+    height: 500px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bloco-1 {
+    width: 70%;
+    height: 20%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.home {
+    width: 35%;
+    margin: auto;
+    float: left;
+}
+
+.home ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+.home ul li a {
+    color: #ffffff;
+    font: 20px "Jacques Francois", serif;
+    text-decoration: none;
+    position: fixed;
+}
+
+.home-1 {
+    margin-top: 0px;
+    float: right;
+}
+
+.home-1 ul li {
+    padding: 19px;
+    margin-left: 25px;
+    display: inline-block;
+    height: 8px;
+}
+
+.home-1 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-1 ul li:hover {
+    border-bottom: 0.5px solid #ffffff;
+}
+
+.bloco-2 {
+    width: 70%;
+    height: 50%;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.t {
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    color: #ffffff;
+    font: 40px "Jacques Francois", serif;
+}
+
+fieldset {
+    border: 0;
+}
+
+
+.menu-2 {
+    width: 100%;
+    height: 780px;
+    background-color: #bcdefc;
+    display: inline-block;
+}
+
+.bloco-3 {
+    margin-top: 2px;
+    margin-left: 30%;
+    background-color: #bcdefc;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #426c9d;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #3724a3;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #3724a3;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #3724a3;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #3724a3;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
